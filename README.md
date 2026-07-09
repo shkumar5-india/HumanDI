@@ -1,75 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Human Development Index Prediction</title>
-
-    <style>
-
-        body{
-            font-family:Arial, Helvetica, sans-serif;
-            background:#f5f7fa;
-            margin:40px;
-            color:#333;
-            line-height:1.8;
-        }
-
-        .container{
-            max-width:1000px;
-            margin:auto;
-            background:white;
-            padding:40px;
-            border-radius:12px;
-            box-shadow:0 0 15px rgba(0,0,0,0.15);
-        }
-
-        h1,h2{
-            color:#0056b3;
-        }
-
-        code{
-            background:#eeeeee;
-            padding:2px 6px;
-            border-radius:5px;
-        }
-
-        pre{
-            background:#222;
-            color:#fff;
-            padding:15px;
-            border-radius:8px;
-            overflow:auto;
-        }
-
-        ul{
-            margin-left:20px;
-        }
-
-        table{
-            width:100%;
-            border-collapse:collapse;
-        }
-
-        table,th,td{
-            border:1px solid #ddd;
-        }
-
-        th{
-            background:#0056b3;
-            color:white;
-        }
-
-        th,td{
-            padding:12px;
-            text-align:left;
-        }
-
-    </style>
-
-</head>
-
 <body>
 
 <div class="container">
@@ -265,16 +193,6 @@ selected socio-economic indicators.
 
 <hr>
 
-<h2>👨‍💻 Developed By</h2>
-
-<p>
-
-Human Development Index Prediction using Machine Learning and Flask.
-
-</p>
-
 </div>
 
 </body>
-
-</html>

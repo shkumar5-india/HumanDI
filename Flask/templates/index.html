@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>HDI Predictor</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="glass-card">
+
+<h1>HDI Prediction</h1>
+
+<form action="/predict" method="POST">
+
+<input
+type="number"
+step="any"
+name="life"
+placeholder="Life Expectancy at Birth"
+required>
+
+<input
+type="number"
+step="any"
+name="expected"
+placeholder="Expected Years of Schooling"
+required>
+
+<input
+type="number"
+step="any"
+name="mean"
+placeholder="Mean Years of Schooling"
+required>
+
+<input
+type="number"
+step="any"
+name="income"
+placeholder="Gross National Income Per Capita"
+required>
+
+<button>
+
+Predict HDI
+
+</button>
+
+</form>
+
+{% if prediction_text %}
+
+<div class="result">
+
+{{ prediction_text }}
+
+</div>
+
+{% endif %}
+
+</div>
+
+</body>
+</html>
